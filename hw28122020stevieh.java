@@ -38,6 +38,7 @@ public class Main
     {
         Scanner prn = new Scanner(System.in);
         Random r = new Random();
+             
         //ex1
         System.out.println("Please enter array size: ");
         int arr_size1 = prn.nextInt();
@@ -98,7 +99,7 @@ public class Main
                 D[index] = B[index];
             }
             E[index] = A[index];
-            E[index+A.length] = B[index];
+            E[index + A.length] = B[index];
         }
         for (int index = 0; index < E.length; index++)
         {
